@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <!-- =======Heading======-->
+    <table align="center" bgcolor="#ddddee" width="62%" cellspacinng="0" cellpadding="0">
+        <tr>
+            <td>
+                <u>
+                    <h2 align="center">Student Registration Form Using Table in HTML</h2>
+                </u>
+            </td>
+        </tr>
+    </table>
+
+    <!-- =======Form======-->
+    <form action="" method="">
+        <table align="center" bgcolor="#edf4eb" border="0" cellspacing="5">
+            <!-- =======Name======-->
+            <tr>
+                <td>First Name</td>
+                <td>
+                    <input type="text" placeholder="First Name" maxlength="20" required> (Max 20 character allowed)
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text" placeholder="Last Name" maxlength="20" required> (Max 20 character allowed)
+                </td>
+            </tr>
+            <!-- =======Email======-->
+            <tr>
+                <td>Email ID</td>
+                <td>
+                    <input type="email" placeholder="Email ID" required>
+                </td>
+            </tr>
+            <!-- =======Mobile======-->
+            <tr>
+                <td>Mobile Number</td>
+                <td>
+                    <input type="text" placeholder="Mobine No" maxlength="11" required> (11 Digit allowed)
+                </td>
+            </tr>
+            <!-- =======Gender======-->
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                    <input type="radio" name="gender">Other
+                </td>
+            </tr>
+            <!-- =======Date of birth======-->
+
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Day</option>
+                        <option value="">01</option>
+                        <option value="">02</option>
+                        <option value="">03</option>
+                        <option value="">04</option>
+                        <option value="">05</option>
+                        <option value="">06</option>
+                        <option value="">07</option>
+                        <option value="">08</option>
+                        <option value="">09</option>
+                        <option value="">10</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Month</option>
+                        <option value="">Jan</option>
+                        <option value="">Feb</option>
+                        <option value="">March</option>
+                        <option value="">April</option>
+                        <option value="">May</option>
+                        <option value="">June</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Year</option>
+                        <option value="">2023</option>
+                        <option value="">2022</option>
+                        <option value="">2021</option>
+                        <option value="">2020</option>
+                        <option value="">2019</option>
+                        <option value="">2018</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- =======Address======== -->
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Type your address here"
+                        maxlength="100"></textarea>
+                </td>
+            </tr>
+
+            <!-- =======City======== -->
+            <tr>
+                <td>City</td>
+                <td>
+                    <input type="text" placeholder="City" required value="Dhaka" readonly>
+                </td>
+            </tr>
+            <!-- =======Post Code======== -->
+            <tr>
+                <td>Post Code</td>
+                <td>
+                    <input type="number" placeholder="Post Code" required maxlength="6"> (Max 6 digit allowed)
+                </td>
+            </tr>
+            <!-- =======State======== -->
+            <tr>
+                <td>State</td>
+                <td>
+                    <input type="text" placeholder="State"> (Only Dhaka City)
+                </td>
+            </tr>
+            <!-- =======Country======== -->
+            <tr>
+                <td>Country</td>
+                <td>
+                    <input type="text" value="Bangladesh" readonly> (Only for Bangladesh)
+                </td>
+            </tr>
+            <!-- =======Hobbies======== -->
+            <tr>
+                <td>Hobbies (Optional)</td>
+                <td>
+                    <input type="checkbox">Drawing
+                    <input type="checkbox">Singing
+                    <input type="checkbox">Dancing
+                    <input type="checkbox">Sketching <br>
+                    <input type="checkbox">Othets
+                    <input type="text" placeholder="Ex- Teaching" maxlength="30">(Max 30 character)
+                </td>
+            </tr>
+            <!-- =======Qualification======== -->
+            <tr>
+                <td>Qualification</td>
+
+                <td>
+                    <table align="center" cellpadding="0" cellspacing="0" bgcolor="" border="1">
+                        <tr>
+                            <td align="center">Sl No.</td>
+                            <td align="center">Examination</td>
+                            <td align="center">Board</td>
+                            <td align="center">Result</td>
+                            <td align="center">Year of Passing</td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>Class X</td>
+                            <td>
+                                <input type="text" required>
+                            </td>
+                            <td>
+                                <input type="number" required>
+                            </td>
+                            <td>
+                                <input type="number" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>Class XII</td>
+                            <td>
+                                <input type="text" required>
+                            </td>
+                            <td>
+                                <input type="number" required>
+                            </td>
+                            <td>
+                                <input type="number" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>Graduation</td>
+                            <td>
+                                <input type="text" required>
+                            </td>
+                            <td>
+                                <input type="number" required>
+                            </td>
+                            <td>
+                                <input type="number" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td>Masters</td>
+                            <td>
+                                <input type="text" required>
+                            </td>
+                            <td>
+                                <input type="number" required>
+                            </td>
+                            <td>
+                                <input type="number" required>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- =======Courses======== -->
+            <tr>
+                <td>Courses Applied For</td>
+                <td>
+                    <input type="checkbox">BCA
+                    <input type="checkbox">B.Com
+                    <input type="checkbox">B.Sc
+                    <input type="checkbox">B.A (Your can choose multiple courses)
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
